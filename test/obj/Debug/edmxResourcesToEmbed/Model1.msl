@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NasabahModelStoreContainer" CdmEntityContainer="NasabahEntities">
+    <EntitySetMapping Name="MstData">
+      <EntityTypeMapping TypeName="NasabahModel.MstData">
+        <MappingFragment StoreEntitySet="MstData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NoKTP" ColumnName="NoKTP" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Alamat" ColumnName="Alamat" />
+          <ScalarProperty Name="TempatLahir" ColumnName="TempatLahir" />
+          <ScalarProperty Name="TanggalLahir" ColumnName="TanggalLahir" />
+          <ScalarProperty Name="NoHP" ColumnName="NoHP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
